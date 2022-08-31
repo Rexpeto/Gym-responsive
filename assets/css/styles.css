@@ -1032,6 +1032,10 @@ img {
     padding: 7rem 0 0;
   }
 
+  .section__subtitle {
+    font-size: 2rem;
+  }
+
   .home__container {
     grid-template-columns: repeat(2, max-content);
     align-items: initial;
@@ -1052,7 +1056,7 @@ img {
   }
 
   .scrolldown {
-    top: 6rem;
+    top: 4rem;
   }
 
   .home_triangle {
@@ -1129,5 +1133,58 @@ img {
 @media (min-width: 1150px) {
   .container {
     margin: auto auto;
+  }
+
+  .home__data {
+    padding-top: 3rem;
+  }
+
+
+  .program__container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+
+  .program__description,
+  .home__description {
+    font-size: var(--normal-font-size);
+  }
+
+  .pricing__container {
+    grid-template-columns: repeat(3, 285px);
+  }
+
+  .choose__img {
+    width: 450px;
+    margin: 0 0 0 auto;
+  }
+
+  .choose__triangle {
+    height: 800px;
+  }
+
+  .choose__images {
+    position: relative;
+  }
+
+  .choose__data {
+    grid-template-columns: repeat(2, max-content);
+    gap: 2.5rem 8rem;
+  }
+
+  .choose__description {
+    margin-bottom: 2rem;
+  }
+
+  .calculate__description {
+    width: 415px;
+  }
+
+  .calculate__form {
+    width: 505px;
+  }
+
+  .calculate__img {
+    width: 300px;
   }
 }
